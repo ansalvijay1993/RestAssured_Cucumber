@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: cucumberJunitSuite.JunitSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 5, Time elapsed: 6.821 sec <<< FAILURE! - in cucumberJunitSuite.JunitSuite
+Then The response code is '201'(Scenario: Enter a valid city)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> doesn't match actual status code <200>.
+
+
+Scenario: Enter a valid city  Time elapsed: 0.018 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> doesn't match actual status code <200>.
+
+
