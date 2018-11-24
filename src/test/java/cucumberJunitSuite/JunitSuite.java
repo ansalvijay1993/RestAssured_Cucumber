@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = {"C:\\Users\\Ansal\\eclipse-workspace\\cucumber\\Features\\weather.feature"},
 		glue = {"services"},
-		plugin = {"pretty", "html:target/cucumber-reports","junit:target/cucumber-reports/Cucumber.xml"},
+		plugin = {"pretty", "html:target/cucumber-reports","junit:target/cucumber-reports/Cucumber.xml", "json:target/Cucumber.json"},
 		monochrome = true
 
 		
