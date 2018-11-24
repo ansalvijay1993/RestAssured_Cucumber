@@ -6,7 +6,7 @@ Feature: Validate Weather API
   @run
   Scenario: Enter a valid city
     When The City is "Delhi"
-    Then The response code is '201'
+    Then The response code is '200'
     Then Fetch the Value of "WeatherDescription"
     Then The Server is "nginx/1.14.0" 
     Then content-type is "JSON" format
@@ -14,4 +14,4 @@ Feature: Validate Weather API
     And the data should be as
       | Data                  | Value     |
       | City                  | Delhi     |
-      | WindDirectionDegree | 54.50 Degree |
+      | WindDirectionDegree | 290 Degree |
