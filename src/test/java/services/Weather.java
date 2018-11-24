@@ -73,7 +73,7 @@ public class Weather {
 		String Server = response.getHeader("Server");
 		System.out.println(Server);
 		response.then().assertThat().header("Server", equalTo(Header));
-		response.then().time(lessThan(30L));
+		response.then().time(lessThan(3500L));
 	}
 	
 	
