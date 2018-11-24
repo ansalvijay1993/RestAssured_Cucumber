@@ -65,7 +65,7 @@ public class Weather {
 	public void fetch_the_value_of(String Value) {
 		String value =  response.path(Value);
 		System.out.println(value);
-		assertTrue(value.equals("haze"));
+		assertTrue(value.equals("haze smoke"));
 	}
 	
 	@Then("^The Server is \"([^\"]*)\"$")
